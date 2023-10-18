@@ -1,0 +1,14 @@
+.thumb {
+  width: 12vw;
+  margin: 0px;
+  border-radius: 5px;
+}
+.thumbImg {
+  width: 12vw;
+  height: 12vw;
+  padding: 0px;
+  margin: 5px;
+  border: 0px;
+  border-radius: 5px;
+  background-color: transparent;
+}
