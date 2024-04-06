@@ -1,14 +1,24 @@
 .thumb {
-  width: 20vw;
+  width: 15vw;
   margin: 0px;
   border-radius: 5px;
 }
 .thumbImg {
-  width: 20vw;
-  height: 20vw;
+  width: 15vw;
+  height: 15vw;
   padding: 0px;
   margin: 5px;
   border: 0px;
   border-radius: 5px;
   background-color: transparent;
+}
+
+@media (max-width: 575px) {
+  .thumb {
+    width: 20vw;
+  }
+  .thumbImg {
+    width: 20vw;
+    height: 20vw;
+  }
 }
