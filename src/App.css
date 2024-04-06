@@ -9,15 +9,22 @@ body {
 .container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   padding: 5vw;
-  min-height: 100vh;
+  min-height: 80vh;
   background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
 }
 .match {
-  width: 90%;
+  width: 40%;
   border-radius: 5px;
   margin-bottom: 20px;
+}
+
+@media (max-width: 575px)  {
+  .match {
+    width: 70%;
+  }
 }
 .tabCard {
   display: flex;
@@ -50,6 +57,7 @@ body {
 }
 .listCard {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   width: 80vw;
   list-style-type: none;
